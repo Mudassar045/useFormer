@@ -1,0 +1,40 @@
+{
+  "name": "useformer",
+  "version": "1.0.0",
+  "description": "a react custom hook to manage component state for html form",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mudassar045/useFormer.git"
+  },
+  "keywords": [
+    "useFormer",
+    "useFormer-hook",
+    "reactjs",
+    "custom-hook",
+    "react-state",
+    "html-form"
+  ],
+  "author": "Mudassar Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mudassar045/useFormer/issues"
+  },
+  "homepage": "https://github.com/Mudassar045/useFormer#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.7"
+  }
+}
